@@ -3,7 +3,7 @@ import './App.css'
 import {AdvancedMarker, APIProvider, Map, type MapCameraChangedEvent, Pin} from '@vis.gl/react-google-maps';
 
 type Poi ={ key: string, location: google.maps.LatLngLiteral }
-//ignore error if there is one on google.maps.LatLngLiteral, it is defined in the @types/googlemaps package which is a dependency of @vis.gl/react-google-maps
+//ignore error if there is one on google.maps.LatLngLiteral above, it is defined in the @types/googlemaps package which is a dependency of @vis.gl/react-google-maps
 const locations: Poi[] = [
   {key: 'Warren Tower Lot', location: { lat: 42.349081937, lng: -71.103582919  }},
   {key: 'West Campus Lot', location: { lat: 42.352868, lng: -71.119654 }},
