@@ -46,7 +46,7 @@ const PoiMarkers = (props: {
           clickable={true}
           onClick={(ev) => handleClick(ev, poi.lot)}
         >
-          <Pin background={"#FBBC04"} glyphColor={"#000"} borderColor={"#000"} />
+          <Pin background={"#fb0404"} glyphColor={"#000"} borderColor={"#000"} />
         </AdvancedMarker>
       ))}
     </>
